@@ -7,6 +7,7 @@
     "@rails/ujs": "^6.0.0-alpha",
     "@rails/webpacker": "^4.0.2",
     "coffee-loader": "^0.9.0",
+    "coffeescript": "1.12.7",
     "coffescript": "^0.0.1-security",
     "core-js": "3",
     "css-loader": "^2.1.1",
