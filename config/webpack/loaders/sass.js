@@ -1,5 +1,5 @@
 module.exports = {
-  test: /\.scss$/,
+  test: [/\.scss$/, /\.sass$/],
   use: [
     "style-loader",
     "css-loader",
