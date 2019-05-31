@@ -12,5 +12,6 @@
  *
  *= require_self
  *= require 'utilities'
- %= require '../../semantic/dist/semantic.css'
+ %= require 'semantic/semantic'
+ %= require 'global'
  */

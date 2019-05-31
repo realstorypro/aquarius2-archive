@@ -120,9 +120,14 @@ html
             = item 'hamburger'
               = icon 'large sidebar'
           = menu class: 'right', only: :desktop
-            = link_to 'https://angel.co/logikal/jobs', target: '_blank', class: 'item'
-              = icon 'external alternate'
+            = link_to pages_careers_path, class: 'item'
+              | Investors
+            = link_to pages_careers_path, class: 'item'
+              | Influencers
+            = link_to pages_careers_path, class: 'item'
               | Careers
+            = link_to pages_about_path, class: 'item'
+              | About
             = item
               = button class: "#{@cta_color} request check"
                 = @cta_text

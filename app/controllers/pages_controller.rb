@@ -11,6 +11,12 @@ class PagesController < ApplicationController
   def careers
   end
 
+  def investors
+  end
+
+  def influencers
+  end
+
   def tos
   end
 
