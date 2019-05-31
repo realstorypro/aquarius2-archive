@@ -1,5 +1,8 @@
 class PagesController < ApplicationController
   def home
+    @hero_color = 'inverted black'
+    @cta_color = 'red'
+    @cta_text = 'Login'
   end
 
   def about

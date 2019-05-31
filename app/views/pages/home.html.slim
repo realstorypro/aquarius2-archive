@@ -1,2 +1,11 @@
-h1 Pages#home
-p Find me in app/views/pages/home.html.slim
+- content_for :hero
+  = fragment 'hero'
+    .landing.page
+      #cover
+    .overlay
+    .content-holder
+      = container
+        = grid
+          = column size: 14, class: 'centered content'
+            = h1 class: 'inverted', text: 'hello world'
+            = text text: 'goodby3'
