@@ -1,0 +1,30 @@
+.check.modal
+  p
+    font-size: 1.5em
+    text-align: center
+
+  .actions .button
+    @include media("<tablet")
+      width: 44%
+
+.demo.modal
+  .close.icon
+    @include media("<desktop")
+      padding-top: 7px
+
+  .content
+    padding-bottom: 10px !important
+
+    .description
+      @include media("<desktop")
+        padding: 0.4rem 0 1rem !important
+
+  .actions 
+    padding: 1.5rem
+    border-top: 0
+
+    @include media("<desktop")
+      padding: 0rem 1rem 0.5rem !important
+
+    .button
+      margin-left: 0
