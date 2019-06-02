@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
     @hero_color = 'inverted black'
     @cta_color = 'red'
-    @cta_text = 'Login'
+    @cta_text = 'Sign In'
   end
 
   def about
@@ -11,10 +11,7 @@ class PagesController < ApplicationController
   def careers
   end
 
-  def investors
-  end
-
-  def influencers
+  def tech
   end
 
   def tos
