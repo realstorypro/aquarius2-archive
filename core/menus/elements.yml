@@ -1,0 +1,8 @@
+menu:
+  elements:
+    - section:
+      - name: Heading
+        hint: 'insert a header element'
+        component: elements_heading
+        icon: heading
+        enabled: true

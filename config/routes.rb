@@ -6,5 +6,17 @@ Rails.application.routes.draw do
   get 'privacy', to: 'pages#privacy'
 
   root to: 'pages#home'
-  devise_for :users
+  devise_for(
+      :users,
+      controllers: {
+          sessions: "users/sessions",
+          registrations: "users/registrations",
+          passwords: "users/passwords"
+      }
+  )
+
+  devise_scope :user do
+    get "/sign_in" => "users/sessions#new"
+    get "/sign_up" => "users/registrations#new"
+  end
 end
