@@ -1,0 +1,23 @@
+= segment class: 'no padding basic', dynamic: :on, id: 'all_settings'
+  = grid "#{'divided' if current_user.help}"
+    = column size: (current_user.help ? 10 : 16)
+      ==  Navigation::NavigationListCell.(nil,
+              layout: 'main',
+              menu: s('menu.theme'),
+              policy: Pundit.policy(current_user, :headless),
+              request: request,
+              show_icons: true,
+              site_settings: @site_settings)
+
+      = h5 text: 'Components', class: 'dividing'
+      ==  Navigation::NavigationListCell.(nil,
+              layout: 'main',
+              menu: s('menu.theme_components'),
+              policy: Pundit.policy(current_user, :headless),
+              request: request,
+              show_icons: true,
+              site_settings: @site_settings)
+
+    - if current_user.help
+      = column size: 6
+        = render 'partials/side_help'

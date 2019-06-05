@@ -1,0 +1,51 @@
+views:
+  site_settings_theme_header:
+    config:
+      set_defaults: true
+      rejected_field_names: ''
+    new:
+      nav_header:
+        type: 'header'
+        text: 'Navigation'
+      menu_color:
+        label: 'Color'
+        type: 'color'
+        required: true
+        default: 'black'
+
+      button_color:
+        advanced: true
+        label: 'Button Color'
+        type: 'color'
+        required: true
+        default: 'black'
+
+      menu_position:
+        advanced: true
+        label: 'Menu Position'
+        type: 'fixed_dropdown'
+        options:
+        - 'left'
+        - 'right'
+        required: true
+        default: 'left'
+
+      logo_header:
+        type: 'header'
+        text: 'Logo'
+
+      desktop_logo_size:
+        advanced: true
+        label: 'Desktop Logo Width'
+        type: 'string'
+        hint: '(in pixels)'
+        maxlength: '3'
+        default: 150
+
+      mobile_logo_size:
+        advanced: true
+        label: 'Mobile Logo Width'
+        type: 'string'
+        hint: '(in pixels)'
+        maxlength: '3'
+        default: 120
