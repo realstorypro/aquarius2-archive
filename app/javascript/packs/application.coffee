@@ -29,12 +29,6 @@ import TurbolinksAdapter from 'vue-turbolinks'
 
 Vue.use(TurbolinksAdapter)
 
-import vue_babylonjs from 'vue-babylonjs'
-Vue.use(vue_babylonjs)
-
-import Cubes from '../js/spinning_cubes'
-Vue.component("cubes", Cubes)
-
 document.addEventListener 'turbolinks:load', =>
     app = new Vue
         el: "[data-behavior='vue']"
