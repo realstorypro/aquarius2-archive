@@ -101,36 +101,38 @@ html
 
 
   body
-    /= render 'partials/demo_modal'
+    .wrapper data-behavior="vue"
+      /= render 'partials/demo_modal'
 
-    = sidebar 'ui vertical inverted menu right'
-      = link_to 'https://angel.co/logikal/jobs', target: '_blank', class: 'item'
-        = icon 'external alternate'
-        | Careers
-      = item
-        = button class: 'red request check'
-          | Investors
+      = sidebar 'ui vertical inverted menu right'
+        = link_to 'https://angel.co/logikal/jobs', target: '_blank', class: 'item'
+          = icon 'external alternate'
+          | Careers
+        = item
+          = button class: 'red request check'
+            | Investors
 
-    .pusher
-      = segment "vertical hero segment clearing #{@hero_color}"
-        = menu ui: :on, class: 'secondary inverted large'
-          = item url: root_path
-            = image_tag 'logo.png', class: 'ui image small'
-          = menu class: 'right', only: :mobile
-            = item 'hamburger'
-              = icon 'large sidebar'
-          = menu class: 'right', only: :desktop
-            = link_to investors_path, class: 'item'
-              | Investors
-            = link_to influencers_path, class: 'item'
-              | Influencers
-            = link_to careers_path, class: 'item'
-              | Careers
-            = link_to about_path, class: 'item'
-              | About
-            = item
-              = button class: "#{@cta_color} request check"
-                = @cta_text
+      .pusher
+        = segment "vertical hero segment clearing #{@hero_color}"
+          = menu ui: :on, class: 'secondary inverted large'
+            = item url: root_path
+              = image_tag 'logo.png', class: 'ui image small'
+            = menu class: 'right', only: :mobile
+              = item 'hamburger'
+                = icon 'large sidebar'
+            = menu class: 'right', only: :desktop
+              = link_to tech_path, class: 'item'
+                | Technology
+              = link_to careers_path, class: 'item'
+                | Careers
+              = link_to about_path, class: 'item'
+                | About
+              = item
+                = button class: "orange basic inverted"
+                  | Request Access
+              = item
+                = button class: "#{@cta_color} request check"
+                  = @cta_text
 
-        = yield :hero
+          = yield :hero
       =yield

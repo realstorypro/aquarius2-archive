@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  get 'investors', to: 'pages#investors'
-  get 'influencers', to: 'pages#influencers'
+  get 'tech', to: 'pages#tech'
   get 'careers', to: 'pages#careers'
   get 'about', to: 'pages#about'
   get 'tos', to: 'pages#tos'

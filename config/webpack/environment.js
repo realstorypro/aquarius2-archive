@@ -6,6 +6,18 @@ const coffee = require('./loaders/coffee')
 const pug =  require('./loaders/pug')
 const less =  require('./loaders/less')
 const sass =  require('./loaders/sass')
+const webpack = require('webpack')
+
+environment.plugins.append(
+    'Provide',
+    new webpack.ProvidePlugin({
+        'window.jQuery': 'jquery',
+        'window.$': 'jquery',
+        jQuery: 'jquery',
+        $: 'jquery',
+        jquery: 'jquery'
+    })
+)
 
 environment.plugins.prepend('VueLoaderPlugin', new VueLoaderPlugin())
 environment.loaders.prepend('vue', vue)
