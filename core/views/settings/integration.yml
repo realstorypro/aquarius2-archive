@@ -1,0 +1,36 @@
+views:
+  site_settings_integration:
+    config:
+      set_defaults: true
+      rejected_field_names: ''
+    new:
+      segment_header:
+        type: 'header'
+        text: 'Segment'
+      segment_js_key:
+        label: 'Javascript Key'
+        type: 'string'
+        default: ''
+      segment_server_key:
+        label: 'Server Key'
+        type: 'string'
+        default: ''
+      shopify_header:
+        type: 'header'
+        text: 'Shopify'
+      shopify_buy_token:
+        label: 'Buy Button Token'
+        type: 'string'
+        default: ''
+      shopify_domain:
+        label: 'Shopify Domain'
+        type: 'string'
+        default: ''
+      webhook_header:
+        type: 'header'
+        text: 'Webhooks'
+      newsletter_webhook:
+        label: 'Newsletter Subscription'
+        type: 'string'
+        hint: 'Zapier Webohook URL. Must start with https://'
+        default: 'https://hooks.zapier.com/hooks/catch/3200901/fsym7e/'

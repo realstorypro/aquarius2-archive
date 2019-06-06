@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  # PWA
+  get "manifest", to: "worker#manifest"
+  get "worker", to: "worker#worker"
+
+  # Pages
   get 'tech', to: 'pages#tech'
   get 'careers', to: 'pages#careers'
   get 'about', to: 'pages#about'

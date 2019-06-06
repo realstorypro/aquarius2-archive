@@ -4,7 +4,7 @@ module AdminAccess
   extend ActiveSupport::Concern
 
   included do
-    before_action :authorize_admin
+    # before_action :authorize_admin
   end
 
     private

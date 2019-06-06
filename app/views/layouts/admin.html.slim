@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    title Administration
+    meta content = 'text/html' charset = 'UTF-8' http-equiv = 'Content-Type'
+    meta content = 'width=device-width initial-scale=1.0' name = 'viewport'
+
+    = csrf_meta_tags
+    = stylesheet_link_tag 'admin'
+    = stylesheet_link_tag 'admin_deferred', media: 'none', onload: "if(media!='all')media='all'"
+    = javascript_pack_tag 'admin'
+    = uploadcare_settings
+    = render 'layouts/partials/admin/inline_js'
+
+
+  body.pushable
+    = render 'layouts/partials/drawers'
+    = render 'layouts/partials/notifications'
+
+    .pusher
+      = fragment 'full height'
+        = render 'layouts/partials/admin/sidebar'
+        = fragment 'main'
+          .scrollable
+            = container
+              = grid
+                = row
+                  = column size: 16
+                    = segment class: 'basic no padding', id: 'header', dynamic: :on
+                      = fragment 'action bar just bordered'
+                        = left
+                          == BreadcrumbsCell.(@breadcrumbs) if @breadcrumbs.present?
+                        = right
+                          ==  Admin::ActionsCell.(nil,
+                                  actions: @actions,
+                                  show: :buttons,
+                                  icons: false) if @actions.present?
+                    == yield
+
+    = render 'layouts/partials/loading_js'

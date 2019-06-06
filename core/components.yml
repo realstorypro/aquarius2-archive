@@ -1,0 +1,192 @@
+components:
+  admin:
+    path: 'admin'
+    enabled: true
+
+  dashboard:
+    path: 'dashboard'
+    enabled: true
+
+  support:
+    path: 'support'
+    enabled: true
+
+  elements:
+    klass: 'Elements'
+    path: 'elements'
+    enabled: true
+
+  elements_heading:
+    klass: 'Elements::Heading'
+    path: 'elements'
+    enabled: true
+    restricted:
+      areas:
+        - content
+
+  site_settings:
+    klass: 'Setting'
+    path: 'settings'
+    enabled: true
+
+  site_settings_general:
+    klass: 'SiteSettings::General'
+    path: 'admin_settings_general'
+    enabled: true
+
+  site_settings_contact:
+    klass: 'SiteSettings::Contact'
+    path: 'admin_settings_contact'
+    enabled: true
+
+  site_settings_components:
+    path: 'admin_settings_components'
+    enabled: true
+
+  site_settings_integration:
+    klass: 'SiteSettings::Integrations'
+    path: 'admin_settings_integration'
+    enabled: true
+
+  site_settings_theme:
+    klass: 'SiteSettings::Theme'
+    path: 'admin_settings_theme'
+    enabled: true
+
+  site_settings_theme_homepage:
+    klass: 'SiteSettings::Theme::Homepage'
+    path: 'admin_settings_theme_homepage'
+    enabled: true
+
+  site_settings_theme_discussion:
+    klass: 'SiteSettings::Theme::Discussion'
+    path: 'admin_settings_theme_discussion'
+    enabled: true
+
+  site_settings_theme_global:
+    klass: 'SiteSettings::Theme::Global'
+    path: 'admin_settings_theme_global'
+    enabled: true
+
+  site_settings_theme_header:
+    klass: 'SiteSettings::Theme::Header'
+    path: 'admin_settings_theme_header'
+    enabled: true
+
+  site_settings_theme_footer:
+    klass: 'SiteSettings::Theme::Footer'
+    path: 'admin_settings_theme_footer'
+    enabled: true
+
+  site_settings_theme_podcast:
+    klass: 'SiteSettings::Theme::Podcast'
+    path: 'admin_settings_theme_podcast'
+    enabled: true
+
+  site_settings_theme_article:
+    klass: 'SiteSettings::Theme::Article'
+    path: 'admin_settings_theme_article'
+    enabled: true
+
+  site_settings_theme_video:
+    klass: 'SiteSettings::Theme::Video'
+    path: 'admin_settings_theme_video'
+    enabled: true
+
+  site_settings_theme_authentication:
+    klass: 'SiteSettings::Theme::Authentication'
+    path: 'admin_settings_theme_authentication'
+    enabled: true
+
+  site_settings_theme_branding:
+    klass: 'SiteSettings::Theme::Branding'
+    path: 'admin_settings_theme_branding'
+    enabled: true
+
+
+
+  members:
+    klass: 'User'
+    path: 'members'
+    enabled: true
+
+  users:
+    klass: 'User'
+    path: 'users'
+    enabled: true
+
+  pages:
+    klass: 'Page'
+    path: 'pages'
+    enabled: true
+    areas:
+    - header
+    - content
+
+  articles:
+    klass: 'Article'
+    path: 'articles'
+    enabled: true
+
+  events:
+    klass: 'Event'
+    path: 'events'
+    enabled: true
+
+  products:
+    klass: 'Product'
+    path: 'products'
+    enabled: true
+
+  store:
+    klass: 'Product'
+    path: 'store'
+    enabled: true
+
+  discussions:
+    klass: 'Discussion'
+    path: 'discussions'
+    enabled: true
+
+  videos:
+    klass: 'Video'
+    path: 'videos'
+    enabled: true
+
+  podcasts:
+    klass: 'Podcast'
+    path: 'podcasts'
+    enabled: true
+
+  profiles:
+    klass: 'Profile'
+    path: 'profile'
+    enabled: true
+
+  comments:
+    klass: 'Comment'
+    path: 'comments'
+    enabled: true
+
+  advertisements:
+    klass: 'Advertisement'
+    path: 'advertisements'
+    enabled: true
+
+  tags:
+    klass: 'Tag'
+    path: 'tags'
+    enabled: true
+
+  categories:
+    klass: 'Category'
+    path: 'categories'
+    enabled: true
+
+  reports:
+    path: 'admin/reports'
+    enabled: true
+
+  dummy:
+    path: 'admin/dummy'
+    enabled: false

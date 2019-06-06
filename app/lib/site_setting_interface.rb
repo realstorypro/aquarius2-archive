@@ -13,6 +13,12 @@ class SiteSettingInterface
   def update
     site_settings = Hash.new
     site_settings[:theme] = {}
+
+    site_settings[:components] = SiteSettings::Component.all
+    site_settings[:general] = SiteSettings::General.instance.payload
+    site_settings[:contact] = SiteSettings::Contact.instance.payload
+    site_settings[:integration] = SiteSettings::Integration.instance.payload
+
     site_settings[:theme][:header] = SiteSettings::Theme::Header.instance.payload
     site_settings[:theme][:auth] = SiteSettings::Theme::Authentication.instance.payload
     site_settings[:theme][:branding] = SiteSettings::Theme::Branding.instance.payload
