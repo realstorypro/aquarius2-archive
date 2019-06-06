@@ -1,0 +1,211 @@
+@import 'variables/colors'
+
+// ********************** //
+//      --* Fonts *--    //
+// ********************** //
+
+$header-font-family: 'Releway', 'Helvetica Neue', Arial, Helvetica, sans-serif
+
+// ********************** //
+//      --* Shared *--    //
+// ********************** //
+
+// Used by menu & header on the white background to create separation
+$s-white-border-color: 2px solid rgba($black, 0.5)
+
+// ********************** //
+//      --* Layout *--    //
+// ********************** //
+
+$header-external-padding: 5.5em
+$header-external-mobile-padding: 4.0em
+
+$header-padding: 0em
+$header-mobile-padding: 0em
+
+$footer-padding: 3.5em
+$footer-mobile-padding: 2em
+
+// *********************** //
+//    --* Components *--   //
+// *********************** //
+
+// Homepage
+$c-homepage-margin: 4.5em 0 0 0
+
+// Authentication
+$c-auth-background: $white
+$c-auth-padding: 0
+
+// Text Page
+$c-text-page-header-top-border: 0
+$c-text-page-header-top-padding: 0
+$c-text-page-header-top-margin: 0
+$c-text-page-header-size: 2em
+
+$c-text-page-mobile-header-top-margin: 0.5em
+
+// ********************** //
+//    --* Fragments *--   //
+// ********************** //
+
+// Secondary
+$f-secondary-background: lighten($black, 95)
+$f-secondary-padding: 4.5em 0 4.5em
+$f-secondary-margin: 0
+$f-secondary-mobile-padding: 3em 0 4.5em
+$f-secondary-mobile-margin: 0
+
+// Drawer
+$f-drawer-background-color: $white
+
+// Action Bar
+$f-action-bar-border-top: 1px solid rgba(34, 36, 38, .15)
+$f-action-bar-border-bottom: 1px solid rgba(34, 36, 38, .15)
+$f-action-bar-padding-top: 10px
+$f-action-bar-padding-bottom: 10px
+$f-action-bar-breadcrumb-padding-top: 5px
+
+$f-action-bar-mobile-padding-top: 1.5em
+$f-action-bar-mobile-border-top: 1px solid rgba(34, 36, 38, .15)
+$f-action-bar-mobile-border-bottom: 1px solid rgba(34, 36, 38, .15)
+
+
+// Header
+$f-header-padding-top: 5.5em
+$f-header-padding-bottom: 4em
+$f-header-breadcrumb-font-size: 1.2em
+$f-header-breadcrumb-margin: 0
+$f-header-h1-font-size: 2.25em
+$f-header-h1-margin-bottom: 0.8em
+$f-header-summary-margin-top: 1em
+$f-header-p-font-size: 1.4em
+$f-header-p-line-height: 1.7em
+
+$f-header-mobile-padding-top: 4.5em
+$f-header-mobile-padding-bottom: 2em
+$f-header-mobile-breadcrumb-font-size: 1.0em
+$f-header-mobile-h1-font-size: 1.7em
+$f-header-mobile-h1-margin-bottom: 0em
+$f-header-meta-mobile-margin-top: 1.2rem
+$f-header-mobile-p-font-size: 1.2em
+
+// Header - Image Variation
+$f-header-image-background-color: $black
+$f-header-image-breadcrumb-color: darken($white, 20)
+$f-header-image-text-color: $white
+$f-header-image-box-shadow: 1px 1px 2px rgba(0, 0, 0, 1)
+
+// Header - Color Variation
+$f-header-colored-top-padding: $f-header-padding-top - 0.5em
+$f-header-colored-breadcrumb-color: darken($white, 5)
+$f-header-colored-text-color: $white
+$f-header-colored-box-shadow: 1px 1px 2px rgba(0, 0, 0, 1)
+
+$f-header-colored-inverted-breadcrumb-color: darken($white, 10)
+$f-header-colored-inverted-text-color: $white
+$f-header-colored-inverted-box-shadow: 1px 1px 2px rgba(0, 0, 0, 1)
+
+// Content
+$f-content-padding-top: 3em
+$f-content-padding-bottom: 4em
+
+$f-content-mobile-padding-top: 2em
+$f-content-mobile-padding-bottom: 4em
+
+// ********************** //
+//    --* Widgets *--     //
+// ********************** //
+
+
+// Sidebar
+$w-sidebar-width: 350px
+$w-sidebar-background: $black
+$w-sidebar-padding: 1em
+$w-sidebar-text-case: uppercase
+
+$w-sidebar-item-font-color: auto
+$w-sidebar-item-font-weight: 600
+
+// important tag removed due to compiler whining
+$w-sidebar-item-active-font-color: $grey
+$w-sidebar-item-active-font-weight: 300
+
+// Item Listing
+$w-item-listing-header-font-size: 1.5em
+$w-item-listing-header-color: $black
+$w-item-listing-meta-color: lighten($black, 30)
+$w-item-listing-text-font-size: 1em
+$w-item-listing-text-color: lighten($black, 30)
+$w-item-listing-text-line-height: 1.6em
+
+$w-item-listing-mobile-header-font-size: 1.05em
+$w-item-listing-mobile-image-height: 90px
+
+// Table Listing
+$w-table-listing-link-color: $black
+
+// Homepage Header
+$w-homepage_header-margin: 0 0 2em
+$w-homepage_header-content-padding: 2em
+
+$w-homepage-header-image-height: 450px
+$w-homepage-header-tiny-image-height: 185px
+$w-homepage-header-small-image-height: 209px
+$w-homepage-header-tall-image-height: 619px
+
+$w-homepage-header-tablet-image-height: 300px
+$w-homepage-header-mobile-image-height: 310px
+
+$w-homepage-header-overlay: rgba(0,0,0,0.8)
+$w-homepage-header-mobile-overlay: rgba(0,0,0,0.9)
+
+$w-homepage-header-header-font-size: 1.77rem
+$w-homepage-header-tablet-header-font-size: 1.15em
+$w-homepage-header-mobile-header-font-size: 1.05em
+
+$w-homepage-header-summary-font-size: 1.2em
+$w-homepage-header-tablet-summary-font-size: 1.05em
+$w-homepage-header-mobile-summary-font-size: 1.05em
+
+// Paginator
+$w-paginator-separator-pading: 1em 0
+$w-paginator-item-pading: 15px 16px
+$w-paginator-item-divider-border: auto
+
+// Comments
+$w-comments-post-background: $white
+$w-comments-post-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, .15)
+$w-comments-post-bottom-border: 1px solid #ccc
+
+$w-comments-post-meta-background: lighten($black,10)
+$w-comments-post-meta-font-color: $white
+
+$w-comments-post-profile-background: #eee
+$w-comments-post-profile-left-border: 1px solid #ccc
+$w-comments-post-profile-right-border: 1px solid #ccc
+
+$w-comments-post-content-right-border: 1px solid #ccc
+$w-comments-post-content-mobile-top-border: 1px solid #ccc
+$w-comments-post-content-mobile-left-border: 1px solid #ccc
+
+$w-comments-new-comment-border: 2px groove lighten($black, 45)
+$w-comments-large-header-font-size: 1.7em
+$w-comments-small-header-font-size: 1.3em
+
+// Video
+$w-video-box-shadow: 0px 3px 7px 2px rgba(0,0,0,0.3)
+
+// Linking (Advertising)
+$w-linking-image-height: 280px
+$w-linking-overlay-background: linear-gradient(135deg, rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.7) 100%)
+$w-linking-header-color: $white
+$w-linking-text-color: $white
+
+// Overlay
+$w-cover-overlay-background: linear-gradient(rgba(27, 27, 27, 0.8), rgba(27, 27, 27, 0.5))
+$w-cover-overlay-transition: opacity 2.0s
+
+// Social Sharing
+$w-socialsharing-margin: 0 0 0em 0
+$w-socialsharing-mobile-margin: 0 0 0em 0

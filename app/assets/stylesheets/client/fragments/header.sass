@@ -1,0 +1,127 @@
+.header.fragment
+  padding-top: $f-header-padding-top
+  padding-bottom: $f-header-padding-bottom
+  @include media("<desktop")
+    padding-top: $f-header-mobile-padding-top
+    padding-bottom: $f-header-mobile-padding-bottom
+
+  &.white
+    border-bottom: $s-white-border-color
+    padding-top: $f-header-padding-top + 1em
+
+  &.fullscreen
+    min-height: 100vh
+
+  &.eighty
+    min-height: 80vh
+
+  .header.breadcrumb
+    a, .divider
+      font-size: $f-header-breadcrumb-font-size
+      @include media("<desktop")
+        font-size: $f-header-mobile-breadcrumb-font-size
+
+
+  h1.header
+    font-size: $f-header-h1-font-size
+    margin-bottom: $f-header-h1-margin-bottom
+    margin-top: 0
+    @include media("<desktop")
+      font-size: $f-header-mobile-h1-font-size
+      margin-bottom: $f-header-mobile-h1-margin-bottom
+
+  .meta
+    @include media("<desktop")
+      margin-top: $f-header-meta-mobile-margin-top
+
+  .summary
+    max-width: 85%
+    margin-top: $f-header-summary-margin-top
+    @include media("<desktop")
+      max-width: 100%
+
+    p
+      font-size: $f-header-p-font-size
+      line-height: $f-header-p-line-height
+      @include media("<desktop")
+        font-size: $f-header-mobile-p-font-size
+
+// ********************** //
+//    --* Variations *--  //
+// ********************** //
+
+// Full Screen Colors
+.header.fragment.fullscreen, 
+.header.fragment.eighty, 
+.header.fragment.image
+  background: $f-header-image-background-color
+
+  .header.breadcrumb
+    a, .divider
+      text-shadow: $f-header-image-box-shadow
+      color: $f-header-image-breadcrumb-color
+
+  h1.header
+    color: $f-header-image-text-color
+    text-shadow: $f-header-image-box-shadow
+
+
+  p
+    color: $f-header-image-text-color
+    text-shadow: $f-header-image-box-shadow
+
+  .meta
+    text-shadow: $f-header-image-box-shadow
+    .header
+      color: $f-header-image-text-color
+    color: $f-header-image-text-color
+
+    a
+      color: $f-header-image-text-color
+
+
+// Regular Colors
+@each $color in $g-colors-list
+  .header.fragment.#{$color}
+    background: map-get($g-colors-map, $color)
+
+    @include media("<desktop")
+      padding-top: $f-header-mobile-padding-top
+
+    .header.breadcrumb
+      a, .divider
+        @if index($g-colors-regular, $color)
+          color: $f-header-colored-breadcrumb-color
+          text-shadow: $f-header-colored-box-shadow
+        @else
+          text-shadow: $f-header-colored-inverted-box-shadow
+          color: $f-header-colored-inverted-breadcrumb-color
+
+    h1.header, p
+      @if index($g-colors-regular, $color)
+        color: $f-header-colored-text-color
+        text-shadow: $f-header-colored-box-shadow
+      @else
+        color: $f-header-colored-inverted-text-color
+        text-shadow: $f-header-colored-inverted-box-shadow
+
+
+    .meta
+      @if index($g-colors-regular, $color)
+        text-shadow: $f-header-colored-box-shadow
+
+        .header
+          color: $f-header-colored-text-color
+        color: $f-header-colored-text-color
+
+        a
+          color: $white
+      @else
+        text-shadow: $f-header-colored-inverted-box-shadow
+
+        .header
+          color: $f-header-colored-inverted-text-color
+        color: $f-header-colored-inverted-text-color
+
+        a
+          color: $white
