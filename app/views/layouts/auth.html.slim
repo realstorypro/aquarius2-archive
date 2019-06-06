@@ -1,10 +1,10 @@
 doctype html
 html
   head
-    /= render 'layouts/partials/head'
+    = render 'layouts/partials/head'
   body class="#{controller_name} #{action_name.downcase}"
-    /= render 'layouts/partials/drawers'
-    /= render 'layouts/partials/notifications'
+    = render 'layouts/partials/drawers'
+    = render 'layouts/partials/notifications'
 
 
     ==  Widget::SidenavCell.(nil,

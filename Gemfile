@@ -26,7 +26,6 @@ gem 'wicked'
 
 gem 'contentful'
 gem 'numbers_and_words'
-gem 'rack-cors', require: 'rack/cors'
 gem 'redcarpet'
 gem 'rich_text_renderer'
 
@@ -68,6 +67,10 @@ gem 'chartkick'
 gem 'dc_ui', github: 'leonid-io/dc-ui', branch: 'master'
 gem 'semantic-ui-sass' # Still needed because we're using the breadcrumb helper
 gem 'simple_form'
+
+# File Upload
+gem "uploadcare-rails", "~> 1.1"
+gem "fog-aws"
 
 # Errors
 gem 'rollbar'

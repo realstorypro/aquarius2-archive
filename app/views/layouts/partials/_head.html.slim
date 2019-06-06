@@ -1,6 +1,3 @@
-// TODO: Refactor this into something nicer
-// We only want to show icon if one has been uploaded
-
 - if ss('theme.branding.icon') && ss('theme.branding.icon').blank?
   = display_meta_tags reverse: true, site: ss('general.name'), description: ss('general.description'),
           og: {site_name: ss('general.name')},
@@ -26,21 +23,17 @@ meta content = 'width=device-width initial-scale=1' name = 'viewport'
 
 = action_cable_meta_tag
 
-// PWA 
-// TODO: Make dynamic
 link rel="manifest" href="/manifest.json"
 meta name="theme-color" content="#000"
 meta name="theme_color" content="#000"
 
-
 = rel_next_prev_link_tags @entries if @entries
 
 = csrf_meta_tags
-= stylesheet_pack_tag 'client_css'
-= stylesheet_pack_tag 'client_js'
-= stylesheet_pack_tag 'client_deferred_css', media: 'none', onload: "if(media!='all')media='all'"
+= stylesheet_link_tag 'client'
+= stylesheet_link_tag 'client'
 = stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Releway|Roboto', media: 'none', onload: "if(media!='all')media='all'"
-= javascript_pack_tag 'client_js', async: ''
+= javascript_pack_tag 'client', async: ''
 
 = uploadcare_settings
 
