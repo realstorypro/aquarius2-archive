@@ -14,6 +14,8 @@ class SiteSettingInterface
     site_settings = Hash.new
     site_settings[:theme] = {}
     site_settings[:theme][:header] = SiteSettings::Theme::Header.instance.payload
+    site_settings[:theme][:auth] = SiteSettings::Theme::Authentication.instance.payload
+    site_settings[:theme][:branding] = SiteSettings::Theme::Branding.instance.payload
 
     site_settings = site_settings.to_json
     @redis.set @namespace, site_settings
