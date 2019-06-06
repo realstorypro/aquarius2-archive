@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d5ae2cd-f87a-4db7-8c35-8c553a94aa90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/collections/form.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/collections/menu.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/collections/menu.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/elements/button.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/elements/header.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/elements/header.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/elements/segment.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/globals/site.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/modules/dimmer.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/modules/dimmer.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/modules/dropdown.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/modules/dropdown.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/views/card.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/views/card.variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/views/item.overrides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/semantic/src/themes/aquarius/views/item.variables" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/semantic/src/theme.config" beforeDir="false" afterPath="$PROJECT_DIR$/semantic/src/theme.config" afterDir="false" />
-    </list>
+    <list default="true" id="6d5ae2cd-f87a-4db7-8c35-8c553a94aa90" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -46,16 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/semantic/src/themes/aquarius/views/card.overrides">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/semantic/src/theme.config">
+        <entry file="file://$PROJECT_DIR$/semantic/src/themes/aquarius/views/card.overrides">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -569,12 +545,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559036473735</updated>
-      <workItem from="1559036475016" duration="25165000" />
+      <workItem from="1559036475016" duration="25344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25165000" />
+    <option name="totallyTimeSpent" value="25344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -894,13 +870,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semantic/src/themes/aquarius/views/card.overrides">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/semantic/src/theme.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+        <state relative-caret-position="559">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semantic/src/themes/aquarius/views/card.overrides">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
