@@ -397,8 +397,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    store_base_sti_class (1.2.0)
-      activerecord (>= 4.0)
     temple (0.8.1)
     thor (0.20.3)
     thread_safe (0.3.6)
@@ -500,7 +498,6 @@ DEPENDENCIES
   sitemap_generator
   spring
   spring-watcher-listen (~> 2.0.0)
-  store_base_sti_class
   turbolinks (~> 5)
   tzinfo-data
   uploadcare-rails (~> 1.1)
