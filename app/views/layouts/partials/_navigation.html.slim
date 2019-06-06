@@ -20,9 +20,6 @@
                 | Signed in as
                 span.username= " #{current_user.username}"
               = divider
-              = link_to profile_path, class: 'item'
-                | Your Profile
-              = divider
               = link_to edit_user_registration_path, class: 'item'
                 | Account Settings
               = link_to destroy_user_session_path, method: 'delete', class: 'item'
