@@ -1,0 +1,59 @@
+auth:
+
+  # roles available within the application
+  # 'defaults' scope defines the
+  # default visitor role and member roles
+
+  roles:
+  - guest
+  - banned
+  - member
+  - editor
+  - admin
+
+  # Role Defenition
+  # 'all' is a hardcoded variable
+  # which bypasses all authorization
+
+  abilities:
+  - 'all'
+  - 'create'
+  - 'read'
+  - 'update'
+  - 'delete'
+  - 'moderate'
+  - 'verify'
+
+  # Actions to Abilities
+  # action:
+  #   'ability'
+
+  actions:
+    index:
+      'read'
+    show:
+      'read'
+    edit:
+      'update'
+    update:
+      'update'
+    destroy:
+      'delete'
+    new:
+      'create'
+    create:
+      'create'
+    ban:
+      'moderate'
+    unban:
+      'moderate'
+    verify:
+      'verify'
+    unverify:
+      'verify'
+
+  # Permissions Map
+  # user:           # role
+  #   component:    # name of the component
+  #     ability:    # name of the ability
+  #       options:  # ability options

@@ -1,0 +1,24 @@
+---
+auth:
+  permissions:
+    guest:
+      articles:
+        read: 
+      discussions:
+        read: 
+      videos:
+        read: 
+      podcasts:
+        read: 
+      comments:
+        read: 
+      profiles:
+        read: 
+      members:
+        read: 
+      advertisements:
+        read: 
+      events:
+        read: 
+      store:
+        read: 
