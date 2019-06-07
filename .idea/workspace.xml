@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d5ae2cd-f87a-4db7-8c35-8c553a94aa90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/models/role.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/policies/application_policy.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/policies/headless_policy.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/policies/meta_policy.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/policies/user_policy.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/auth.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/permissions/admin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/permissions/banned.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/permissions/editor.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/permissions/guest.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/permissions/member.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/admin_access.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/concerns/admin_access.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-    </list>
+    <list default="true" id="6d5ae2cd-f87a-4db7-8c35-8c553a94aa90" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -91,20 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/role.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20190607015525_add_roles.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -486,12 +462,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559036473735</updated>
-      <workItem from="1559036475016" duration="33090000" />
+      <workItem from="1559036475016" duration="33197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33090000" />
+    <option name="totallyTimeSpent" value="33197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -836,17 +812,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190607015525_add_roles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/role.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190607015525_add_roles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>

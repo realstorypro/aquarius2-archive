@@ -10,7 +10,7 @@ class AddRoles < ActiveRecord::Migration[6.0]
       t.index ["name"], name: "index_roles_on_name"
       t.index ["resource_type", "resource_id"], name: "index_roles_on_resource_type_and_resource_id"
     end
-    
+
     create_table "users_roles", id: false, force: :cascade do |t|
       t.bigint "user_id"
       t.bigint "role_id"
