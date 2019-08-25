@@ -1,0 +1,41 @@
+- if ss('theme.branding.icon') && ss('theme.branding.icon').blank?
+  = display_meta_tags reverse: true, site: ss('general.name'), description: ss('general.description'),
+          og: {site_name: ss('general.name')},
+          twitter: {site: ss('contact.twitter')}
+- else
+  = display_meta_tags reverse: true, site: ss('general.name'), description: ss('general.description'),
+      og: {site_name: ss('general.name')},
+      twitter: {site: ss('contact.twitter')},
+      icon: [ { href: "#{ss('theme.branding.icon')}-/preview/16x16/", sizes: '16x16' },
+      { href: "#{ss('theme.branding.icon')}-/preview/32x32/", sizes: '32x32' },
+      { href: "#{ss('theme.branding.icon')}-/preview/96x96/", sizes: '96x96' },
+      { href: "#{ss('theme.branding.icon')}-/preview/120x120/", rel: 'apple-touch-icon' },
+      { href: "#{ss('theme.branding.icon')}-/preview/152x152/", sizes: '152x152', rel: 'apple-touch-icon' },
+      { href: "#{ss('theme.branding.icon')}-/preview/167x167/", sizes: '167x167', rel: 'apple-touch-icon' },
+      { href: "#{ss('theme.branding.icon')}-/preview/180x180/", sizes: '180x180', rel: 'apple-touch-icon' },
+      { href: "#{ss('theme.branding.icon')}-/preview/192x192/", sizes: '192x192', rel: 'apple-touch-icon' },
+      { href: "#{ss('theme.branding.icon')}-/preview/512x512/", sizes: '512x512', rel: 'apple-touch-icon' },
+      { href: "#{ss('theme.branding.icon')}-/preview/192x192/", sizes: '192x192', rel: 'icon' },
+      { href: "#{ss('theme.branding.icon')}-/preview/512x512/", sizes: '512x512', rel: 'icon' } ]
+
+meta content = 'text/html; charset=UTF-8' http-equiv = 'Content-Type'
+meta content = 'width=device-width initial-scale=1' name = 'viewport'
+
+= action_cable_meta_tag
+
+link rel="manifest" href="/manifest.json"
+meta name="theme-color" content="#000"
+meta name="theme_color" content="#000"
+
+= rel_next_prev_link_tags @entries if @entries
+
+= csrf_meta_tags
+= stylesheet_link_tag 'client'
+= stylesheet_link_tag 'client'
+= stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Releway|Roboto', media: 'none', onload: "if(media!='all')media='all'"
+= javascript_pack_tag 'client', async: ''
+
+= uploadcare_settings
+
+
+= render 'layouts/partials/inline_js'

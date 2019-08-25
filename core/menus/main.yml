@@ -1,0 +1,7 @@
+menu:
+  main:
+  - section:
+    - name: Home
+      path: root
+      icon: compass
+      enabled: true

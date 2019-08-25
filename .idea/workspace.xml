@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d5ae2cd-f87a-4db7-8c35-8c553a94aa90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/helpers/nav_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/palette.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/permissions.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/symbol_extension.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/goodlogik.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/goodlogik.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/js/spinning_cubes.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/js/test.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/js/blank.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/auth.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/auth.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/sti_base_class.rb" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -27,78 +33,19 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/global.sass">
+            <entry file="file://$PROJECT_DIR$/app/views/layouts/auth.html.slim">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="511">
-                  <caret line="85" column="2" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.slim">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="182">
-                  <caret line="105" selection-start-line="105" selection-end-line="105" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/javascript/packs/application.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="31" selection-start-line="31" selection-end-line="31" />
-                  <folding>
-                    <element signature="e#0#27#0" expanded="true" />
-                    <element signature="e#128#173#0" expanded="true" />
-                    <element signature="e#777#811#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="270">
+                  <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/javascript/js/blank.vue">
+            <entry file="file://$PROJECT_DIR$/app/helpers/nav_helper.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/javascript/css/global.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/routes.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+                <state relative-caret-position="285">
+                  <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -107,16 +54,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/javascript/packs/application.coffee">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/layouts/auth.html.slim">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#0#27#0" expanded="true" />
-                    <element signature="e#128#173#0" expanded="true" />
-                    <element signature="e#777#811#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="45">
+                  <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -132,7 +83,6 @@
       <find>noise</find>
       <find>request</find>
       <find>@cta_color</find>
-      <find>hmdr</find>
       <find>hmr</find>
       <find>mobile.only</find>
       <find>hero</find>
@@ -140,6 +90,23 @@
       <find>landing</find>
       <find>jquery</find>
       <find>test</find>
+      <find>country</find>
+      <find>http</find>
+      <find>devise</find>
+      <find>slim</find>
+      <find>meta-tags</find>
+      <find>e</find>
+      <find>deflate</find>
+      <find>ahoy</find>
+      <find>@settings</find>
+      <find>SiteSettings</find>
+      <find>Admin</find>
+      <find>@site_settings</find>
+      <find>redis</find>
+      <find>deflater</find>
+      <find>cors</find>
+      <find>hmdr</find>
+      <find>webpack</find>
     </findStrings>
     <replaceStrings>
       <replace>sass</replace>
@@ -157,25 +124,46 @@
         <option value="$PROJECT_DIR$/config/webpack/loaders/sass.js" />
         <option value="$PROJECT_DIR$/app/javascript/css/global.sass" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/javascript/css/home.sass" />
         <option value="$PROJECT_DIR$/app/javascript/css/main.sass" />
         <option value="$PROJECT_DIR$/app/javascript/css/about.sass" />
         <option value="$PROJECT_DIR$/semantic.json" />
-        <option value="$PROJECT_DIR$/config/webpacker.yml" />
         <option value="$PROJECT_DIR$/app/javascript/packs/css.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/pages/investors.html.slim" />
         <option value="$PROJECT_DIR$/app/views/pages/influencers.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/global.sass" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.slim" />
         <option value="$PROJECT_DIR$/app/javascript/packs/application.js" />
         <option value="$PROJECT_DIR$/config/webpack/environment.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
         <option value="$PROJECT_DIR$/app/javascript/js/spinning_cubes.vue" />
         <option value="$PROJECT_DIR$/app/javascript/packs/application.coffee" />
+        <option value="$PROJECT_DIR$/db/migrate/20190605043132_add_username_to_users.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/concerns/trackable.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190605071046_add_settings.rb" />
+        <option value="$PROJECT_DIR$/app/cells/widget/sidenav_cell.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/site_settings/theme/theme_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/concerns/admin_access.rb" />
+        <option value="$PROJECT_DIR$/core/menus/main.yml" />
+        <option value="$PROJECT_DIR$/app/controllers/concerns/site_settings.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/redis.rb" />
+        <option value="$PROJECT_DIR$/app/lib/site_setting_interface.rb" />
+        <option value="$PROJECT_DIR$/app/javascript/packs/client_deferred_css.js" />
+        <option value="$PROJECT_DIR$/config/webpacker.yml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/client_deferred_css.sass" />
+        <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/_head.html.slim" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/client.sass" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/client/global.sass" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/layouts/auth.html.slim" />
       </list>
     </option>
   </component>
@@ -220,21 +208,29 @@
               <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
@@ -247,7 +243,56 @@
               <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="concerns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="site_settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="site_settings" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
@@ -259,37 +304,47 @@
             <path>
               <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="initializers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="packs" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="packs" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="menus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
               <item name="semantic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
+              <item name="semantic" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goodlogik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodlogik" type="462c0819:PsiDirectoryNode" />
+              <item name="semantic" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,21 +357,24 @@
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.slim" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/javascript/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/helpers" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets/shared" />
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets/client" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
+      <recent name="$PROJECT_DIR$/app/javascript/shared" />
       <recent name="$PROJECT_DIR$/app/javascript/js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/javascript/js" />
-      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
-      <recent name="$PROJECT_DIR$/app/javascript/css" />
-      <recent name="$PROJECT_DIR$/app/assets/images" />
-      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$/app/helpers" />
+      <recent name="$PROJECT_DIR$/app/lib" />
+      <recent name="$PROJECT_DIR$/config/initializers" />
+      <recent name="$PROJECT_DIR$/app/javascript/shared/css" />
+      <recent name="$PROJECT_DIR$/app/javascript/packs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -436,12 +494,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559036473735</updated>
-      <workItem from="1559036475016" duration="12417000" />
+      <workItem from="1559036475016" duration="22589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12417000" />
+    <option name="totallyTimeSpent" value="22589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -462,6 +520,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" x="0" y="0" width="310" height="677" id="Documentation" side_tool="true" weight="0.3298611" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -472,289 +531,226 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/webpack/loaders/less.js">
+    <entry file="file://$PROJECT_DIR$/core/menus/theme.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="375">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack/loaders/erb.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/concerns/trackable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/concerns/autoloadable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/site_settings/theme/video.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack/loaders/pug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/master.key">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/packs/hello_vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/packs/hello_erb.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/packs/hello_coffee.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/channels/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/channels/consumer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/webpacker-4.0.2/lib/webpacker/helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="102" column="6" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack/loaders/coffee.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack/loaders/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack/loaders/sass.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/meta_tags.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/content_security_policy.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/ui.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/packs/js/css-8bbbbcf87471cc2c0d36.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1467">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/css/home.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" column="15" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/cells/widget/sidenav_cell.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/dc_ui.rb">
+    <entry file="file://$PROJECT_DIR$/core/views/settings/theme/header.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190605071046_add_settings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/concerns/payloadable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/site_settings/shared_settings_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/site_settings/theme/theme_controller.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/css/about.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/css/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/config/manifest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpacker.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/css/utilities.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semantic.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/packs/css.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/tech.html.slim">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/influencers.html.slim">
+    <entry file="file://$PROJECT_DIR$/app/cells/admin/list/row.slim">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="525">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/global.sass">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/crud/new.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="85" column="2" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="2" />
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/css/global.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack/environment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue-turbolinks/index.js">
+    <entry file="file://$PROJECT_DIR$/app/models/site_settings/theme/header.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
+    <entry file="file://$PROJECT_DIR$/app/models/setting.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/js/spinning_cubes.vue">
+    <entry file="file://$PROJECT_DIR$/app/lib/analytics_proxy.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/menus/main.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/js/blank.vue">
+    <entry file="file://$PROJECT_DIR$/config/initializers/00_config.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/01_config_bootloader.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/setting_proxy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ahoy/visit.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cells/base_cell.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/settings_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/sidekiq.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/redis.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/beast-js/core/settings.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/uploadcare.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/concerns/site_settings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/site_setting_interface.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/shared/plugins/redactor/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs/client_css.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpacker.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/packs/application.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="90">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
             <element signature="e#128#173#0" expanded="true" />
@@ -763,5 +759,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/setting_interface.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/permissions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/simple_form.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/client/global.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/client.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/client/init.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/_head.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/client_deferred.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs/client.coffee">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/concerns/admin_access.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/auth.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/nav_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

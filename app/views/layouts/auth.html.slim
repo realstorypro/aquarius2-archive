@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    = render 'layouts/partials/head'
+  body class="#{controller_name} #{action_name.downcase}"
+    = render 'layouts/partials/drawers'
+    = render 'layouts/partials/notifications'
+
+
+    ==  Widget::SidenavCell.(nil,
+            layout: 'main',
+            menu: s('menu.main'),
+            policy: Pundit.policy(current_user, :headless),
+            request: request,
+            show_icons: false,
+            site_settings: @site_settings)
+
+    .pusher
+      = render 'layouts/partials/navigation'
+      == yield
+
+    /= render 'layouts/partials/loading_js'
